@@ -1,0 +1,57 @@
+img {
+    /* Your code goes here */
+    position: relative;
+    left: 10px;
+    z-index: 1;
+    width: 300px;
+
+    /* Black border */
+    border: 2px solid black;
+
+    /* Space between the border and the image */
+    padding: 10px;
+
+    /* Space around the image */
+    margin: 20px;
+
+    /* Shadow around the image */
+    box-shadow: 5px 5px 10px gray;
+}
+
+.words {
+    font-family: impact;
+    font-size: 60px;
+}
+
+.first {
+    /* Your code goes here */
+    position: absolute;
+    top: 115px;
+    left: 160px;
+    z-index: 2;
+}
+
+.heart {
+    color: red;
+    font-size: 80px;
+
+    /* Your code goes here */
+    position: absolute;
+    top: 95px;
+    left: 180px;
+    z-index: 2;
+}
+
+.last {
+    /* Your code goes here */
+    position: absolute;
+    top: 170px;
+    left: 160px;
+    z-index: 2;
+}
+
+div {
+    position: relative;
+    display: inline-block;
+    background-color: lightgray;
+}
